@@ -1,0 +1,788 @@
+﻿Log file open, 08/27/17 15:28:27
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: Arcanum
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1802729098) SRandInit(1802729098).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.202652
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogModuleManager: Warning: No filename provided for module OnlineSubsystemLAN
+LogModuleManager: Warning: ModuleManager: Unable to load module 'OnlineSubsystemLAN' because the file 'C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/' was not found.
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.27-13.28.29:008][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.27-13.28.29:008][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.27-13.28.29:020][  0]LogInit: Computer: MSI
+[2017.08.27-13.28.29:020][  0]LogInit: User: Ðaine
+[2017.08.27-13.28.29:020][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.27-13.28.29:020][  0]LogInit: High frequency timer resolution =2.531250 MHz
+[2017.08.27-13.28.29:020][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.08.27-13.28.29:020][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.27-13.28.29:020][  0]LogMemory: Process Physical Memory: 281.13 MB used, 281.13 MB peak
+[2017.08.27-13.28.29:021][  0]LogMemory: Process Virtual Memory: 286.42 MB used, 286.42 MB peak
+[2017.08.27-13.28.29:021][  0]LogMemory: Physical Memory: 4567.76 MB used,  11767.48 MB free, 16335.24 MB total
+[2017.08.27-13.28.29:021][  0]LogMemory: Virtual Memory: 668.45 MB used,  11767.48 MB free, 134217728.00 MB total
+[2017.08.27-13.28.29:436][  0]LogInit: Using OS detected language (en-GB).
+[2017.08.27-13.28.29:436][  0]LogInit: Using OS detected locale (en-GB).
+[2017.08.27-13.28.29:442][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2017.08.27-13.28.30:462][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.27-13.28.31:342][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.08.27-13.28.31:342][  0]LogD3D11RHI:       8113/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.08.27-13.28.31:344][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.27-13.28.31:344][  0]LogD3D11RHI:       0/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.27-13.28.31:344][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.27-13.28.31:351][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.27-13.28.31:351][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.27-13.28.31:351][  0]LogWindows: EnumDisplayDevices:
+[2017.08.27-13.28.31:351][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.08.27-13.28.31:352][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.08.27-13.28.31:352][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.27-13.28.31:352][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.27-13.28.31:352][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.27-13.28.31:352][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.08.27-13.28.31:352][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
+[2017.08.27-13.28.31:353][  0]LogD3D11RHI:      Driver Date: 5-17-2017
+[2017.08.27-13.28.31:353][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.27-13.28.32:204][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.27-13.28.32:245][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.27-13.28.32:289][  0]LogShaderCompilers: Guid format shader working directory is 24 characters bigger than the processId version (D:/Prog/Unreal/Arcanum/Intermediate/Shaders/WorkingDirectory/2648/).
+[2017.08.27-13.28.32:290][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Ðaine/AppData/Local/Temp/UnrealShaderWorkingDir/9A4DE6744859EB915B62E396F5CB02E0/'.
+[2017.08.27-13.28.32:290][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.08.27-13.28.33:671][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.27-13.28.33:750][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.08.27-13.28.33:830][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.27-13.28.33:915][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.08.27-13.28.34:011][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.08.27-13.28.34:088][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.27-13.28.34:162][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.27-13.28.34:242][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.27-13.28.34:316][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.08.27-13.28.34:394][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.08.27-13.28.34:464][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.27-13.28.34:542][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.27-13.28.34:618][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.27-13.28.34:690][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.27-13.28.34:769][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.27-13.28.34:943][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.27-13.28.34:943][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.27-13.28.35:013][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.08.27-13.28.35:163][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.08.27-13.28.35:211][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.08.27-13.28.35:292][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.27-13.28.35:386][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.27-13.28.35:477][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.27-13.28.35:564][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.08.27-13.28.35:564][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.08.27-13.28.36:436][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.08.27-13.28.36:562][  0]LogDerivedDataCache: Loaded boot cache 0.13s 93MB C:/Users/Ðaine/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.27-13.28.36:562][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Ðaine/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.08.27-13.28.36:563][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Prog/Unreal/Arcanum/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.27-13.28.36:563][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.27-13.28.36:563][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Prog/Unreal/Arcanum/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.27-13.28.36:563][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.27-13.28.36:587][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.27-13.28.36:600][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ðaine/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.27-13.28.36:614][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.27-13.28.36:614][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.27-13.28.36:615][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.27-13.28.36:615][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.27-13.28.37:058][  0]LogAssetRegistry: FAssetRegistry took 0.0287 seconds to start up
+[2017.08.27-13.28.37:225][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.27-13.28.37:482][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.27-13.28.38:001][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.27-13.28.38:082][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.27-13.28.38:082][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.27-13.28.38:082][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.08.27-13.28.38:082][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.08.27-13.28.38:082][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.08.27-13.28.38:644][  0]LogNetVersion: Arcanum , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1164734288)
+[2017.08.27-13.28.38:986][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.051406 seconds
+[2017.08.27-13.28.38:996][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.08.27-13.28.38:996][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.08.27-13.28.38:996][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.27-13.28.43:654][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.27-13.28.43:722][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.27-13.28.44:883][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.27-13.28.45:598][  0]SourceControl: Source control is disabled
+[2017.08.27-13.28.45:598][  0]SourceControl: Source control is disabled
+[2017.08.27-13.28.45:700][  0]SourceControl: Source control is disabled
+[2017.08.27-13.28.45:796][  0]SourceControl: Source control is disabled
+[2017.08.27-13.28.46:815][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.27-13.28.47:259][  0]LogOcInput: OculusInput pre-init called
+[2017.08.27-13.28.47:636][  0]LogEngine: Initializing Engine...
+[2017.08.27-13.28.47:638][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.27-13.28.47:907][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.27-13.28.47:907][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.27-13.28.48:121][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.27-13.28.48:143][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.08.27-13.28.48:247][  0]LogInit: FAudioDevice initialized.
+[2017.08.27-13.28.48:338][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/Ðaine/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.27-13.28.48:351][  0]LogInit: Texture streaming: Enabled
+[2017.08.27-13.28.48:502][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.27-13.28.48:833][  0]LogInit: Transaction tracking system initialized
+[2017.08.27-13.28.49:318][  0]BlueprintLog: New page: Editor Load
+[2017.08.27-13.28.50:701][  0]LocalizationService: Localization service is disabled
+[2017.08.27-13.28.51:500][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2017.08.27-13.28.51:500][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2017.08.27-13.28.51:500][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2017.08.27-13.28.51:766][  0]LogConsoleResponse: Display: 
+[2017.08.27-13.28.52:023][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.27-13.28.52:023][  0]LogCook: Display: Mobile HDR setting 1
+[2017.08.27-13.28.52:023][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.08.27-13.28.52:518][  0]LogFileCache: Scanning file cache for directory 'D:/Prog/Unreal/Arcanum/Content/' took 0.02s
+[2017.08.27-13.28.53:637][  0]SourceControl: Source control is disabled
+[2017.08.27-13.28.53:637][  0]Cmd: MAP LOAD FILE="D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Maps/Arena.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.27-13.28.53:637][  0]LightingResults: New page: Lighting Build
+[2017.08.27-13.28.53:705][  0]MapCheck: New page: Map Check
+[2017.08.27-13.28.53:705][  0]LightingResults: New page: Lighting Build
+[2017.08.27-13.28.55:279][  0]LogAIModule: Creating AISystem for world Arena
+[2017.08.27-13.28.55:295][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.27-13.28.55:323][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.27-13.28.55:463][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 139.773ms to complete.
+[2017.08.27-13.28.55:464][  0]LogFileHelpers: Loading map 'Arena' took 1.827
+[2017.08.27-13.28.55:528][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.27-13.28.55:632][  0]LogCollectionManager: Loaded 0 collections in 0.002433 seconds
+[2017.08.27-13.28.55:735][  0]LogFileCache: Scanning file cache for directory 'D:/Prog/Unreal/Arcanum/Saved/Collections/' took 0.01s
+[2017.08.27-13.28.55:735][  0]LogFileCache: Scanning file cache for directory 'D:/Prog/Unreal/Arcanum/Content/Developers/Ðaine/Collections/' took 0.01s
+[2017.08.27-13.28.55:735][  0]LogFileCache: Scanning file cache for directory 'D:/Prog/Unreal/Arcanum/Content/Collections/' took 0.01s
+[2017.08.27-13.28.55:735][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.08.27-13.28.55:745][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2386 classes and 500 folders.
+[2017.08.27-13.28.55:846][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.08.27-13.28.55:931][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.08.27-13.28.56:005][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.08.27-13.28.56:096][  0]LogSlate: Took 0.000355 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.27-13.28.56:098][  0]LogSlate: Took 0.000256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.27-13.28.56:103][  0]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.27-13.28.56:225][  0]LogRenderer: Reallocating scene render targets to support 1180x532 Format 10 NumSamples 1 (Frame:1).
+[2017.08.27-13.28.56:453][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.08.27-13.28.56:453][  0]LogLoad: (Engine Initialization) Total time: 30.32 seconds
+[2017.08.27-13.28.56:453][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.08.27-13.28.56:454][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.08.27-13.28.56:517][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2017.08.27-13.28.56:547][  0]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.27-13.28.56:562][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Prog/Unreal/Arcanum/Content/' took 0.07s
+[2017.08.27-13.28.56:574][  1]LogAssetRegistry: Asset discovery search completed in 19.5382 seconds
+[2017.08.27-13.28.56:576][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.08.27-13.28.56:576][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000068 seconds (updated 0 objects)
+[2017.08.27-13.35.17:526][975]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.27-13.35.17:526][975]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.27-13.35.19:209][ 76]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.27-13.35.19:209][ 76]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.27-13.38.47:559][565]LogSlate: Took 0.000250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.27-13.38.56:544][104]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.27-13.38.56:571][104]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Arena' took 0.011
+[2017.08.27-13.38.56:574][104]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Player/UI/Menu] ([1] browsable assets)...
+[2017.08.27-13.38.56:574][104]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Player/UI/Menu]
+[2017.08.27-13.38.56:587][104]LogSavePackage: Save=10.75ms
+[2017.08.27-13.38.56:587][104]LogSavePackage: Moving 'D:/Prog/Unreal/Arcanum/Saved/Menu_Auto1521B71C2403945FF351657B0B56EBD39.tmp' to 'D:/Prog/Unreal/Arcanum/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Player/UI/Menu_Auto1.uasset'
+[2017.08.27-13.38.56:588][104]LogSavePackage: Display: Finished SavePackage D:/Prog/Unreal/Arcanum/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Player/UI/Menu_Auto1.uasset
+[2017.08.27-13.38.56:588][104]LogFileHelpers: Auto-saving content packages took 0.016
+[2017.08.27-13.57.34:948][ 35]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 113 classes and 0 folders.
+[2017.08.27-13.57.36:010][ 35]LogSlate: Took 0.001525 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.27-13.57.52:153][930]LogSlate: Took 0.001404 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.27-14.01.05:339][145]BlueprintLog: New page: Compile ArcaPlayerController
+[2017.08.27-14.01.06:180][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Player/ArcaPlayerController" FILE="D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/ArcaPlayerController.uasset" SILENT=true
+[2017.08.27-14.01.06:225][145]LogSavePackage: Save=36.62ms
+[2017.08.27-14.01.06:225][145]LogSavePackage: Moving 'D:/Prog/Unreal/Arcanum/Saved/ArcaPlayerController485F349E4DEAD44E09F5AEBBD18A4B70.tmp' to 'D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/ArcaPlayerController.uasset'
+[2017.08.27-14.01.06:227][145]LogSavePackage: Display: Finished SavePackage D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/ArcaPlayerController.uasset
+[2017.08.27-14.01.06:768][171]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Player/ArcaPlayerController" FILE="D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/ArcaPlayerController.uasset" SILENT=true
+[2017.08.27-14.01.06:809][171]LogSavePackage: Save=35.42ms
+[2017.08.27-14.01.06:809][171]LogSavePackage: Moving 'D:/Prog/Unreal/Arcanum/Saved/ArcaPlayerControllerD23FB15B4703A9568D135B941FCE2E92.tmp' to 'D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/ArcaPlayerController.uasset'
+[2017.08.27-14.01.06:810][171]LogSavePackage: Display: Finished SavePackage D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/ArcaPlayerController.uasset
+[2017.08.27-14.01.25:015][225]LogSlate: Took 0.001488 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.08.27-14.01.41:022][177]BlueprintLog: New page: Compile Menu
+[2017.08.27-14.01.41:736][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Player/UI/Menu" FILE="D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/UI/Menu.uasset" SILENT=true
+[2017.08.27-14.01.41:748][201]LogSavePackage: Save=10.28ms
+[2017.08.27-14.01.41:748][201]LogSavePackage: Moving 'D:/Prog/Unreal/Arcanum/Saved/Menu0D5ED3C94FB5F2D602079FB062996B8D.tmp' to 'D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/UI/Menu.uasset'
+[2017.08.27-14.01.41:750][201]LogSavePackage: Display: Finished SavePackage D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/UI/Menu.uasset
+[2017.08.27-14.01.48:456][583]BlueprintLog: New page: Compile ArcaPlayerController
+[2017.08.27-14.01.49:667][604]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Player/ArcaPlayerController" FILE="D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/ArcaPlayerController.uasset" SILENT=true
+[2017.08.27-14.01.49:705][604]LogSavePackage: Save=33.85ms
+[2017.08.27-14.01.49:705][604]LogSavePackage: Moving 'D:/Prog/Unreal/Arcanum/Saved/ArcaPlayerController3288E2C14A8532A859446A85C23BAC4D.tmp' to 'D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/ArcaPlayerController.uasset'
+[2017.08.27-14.01.49:706][604]LogSavePackage: Display: Finished SavePackage D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/ArcaPlayerController.uasset
+[2017.08.27-14.01.51:430][686]BlueprintLog: New page: Compile Player
+[2017.08.27-14.01.53:155][692]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Player/Player" FILE="D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/Player.uasset" SILENT=true
+[2017.08.27-14.01.53:765][692]LogSavePackage: Save=604.52ms
+[2017.08.27-14.01.53:765][692]LogSavePackage: Moving 'D:/Prog/Unreal/Arcanum/Saved/Player7319DEBB43C1CB6DDDE5039ED6C4A6FD.tmp' to 'D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/Player.uasset'
+[2017.08.27-14.01.53:767][692]LogSavePackage: Display: Finished SavePackage D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/Player.uasset
+[2017.08.27-14.02.20:764][298]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.27-14.02.52:486][184]BlueprintLog: New page: Compile ArcaPlayerController
+[2017.08.27-14.02.53:832][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Player/ArcaPlayerController" FILE="D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/ArcaPlayerController.uasset" SILENT=true
+[2017.08.27-14.02.53:871][213]LogSavePackage: Save=34.76ms
+[2017.08.27-14.02.53:871][213]LogSavePackage: Moving 'D:/Prog/Unreal/Arcanum/Saved/ArcaPlayerController52273C0044A6D24EE6887681ED395F3D.tmp' to 'D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/ArcaPlayerController.uasset'
+[2017.08.27-14.02.53:873][213]LogSavePackage: Display: Finished SavePackage D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/ArcaPlayerController.uasset
+[2017.08.27-14.03.54:149][787]BlueprintLog: New page: Compile ArcaPlayerController
+[2017.08.27-14.03.55:436][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Player/ArcaPlayerController" FILE="D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/ArcaPlayerController.uasset" SILENT=true
+[2017.08.27-14.03.55:479][810]LogSavePackage: Save=39.53ms
+[2017.08.27-14.03.55:479][810]LogSavePackage: Moving 'D:/Prog/Unreal/Arcanum/Saved/ArcaPlayerController4BE9C8B14E87C542C4404CA4002E19C2.tmp' to 'D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/ArcaPlayerController.uasset'
+[2017.08.27-14.03.55:481][810]LogSavePackage: Display: Finished SavePackage D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/ArcaPlayerController.uasset
+[2017.08.27-14.04.24:345][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Arena" FILE="D:/Prog/Unreal/Arcanum/Saved/Autosaves/Game/ThirdPersonBP/Maps/Arena_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.27-14.04.24:433][532]LogSavePackage: Save=74.57ms
+[2017.08.27-14.04.24:434][532]LogSavePackage: Moving 'D:/Prog/Unreal/Arcanum/Saved/Arena_Auto2784CB40648A8A5B133065C8F9C39EAC6.tmp' to 'D:/Prog/Unreal/Arcanum/Saved/Autosaves/Game/ThirdPersonBP/Maps/Arena_Auto2.umap'
+[2017.08.27-14.04.24:436][532]LogSavePackage: Display: Finished SavePackage D:/Prog/Unreal/Arcanum/Saved/Autosaves/Game/ThirdPersonBP/Maps/Arena_Auto2.umap
+[2017.08.27-14.04.24:439][532]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Arena' took 0.116
+[2017.08.27-14.04.24:440][532]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.116
+[2017.08.27-14.19.06:934][869]BlueprintLog: New page: Compile ArcaPlayerController
+[2017.08.27-14.19.34:521][  9]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Arena" FILE="D:/Prog/Unreal/Arcanum/Saved/Autosaves/Game/ThirdPersonBP/Maps/Arena_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.27-14.19.34:611][  9]LogSavePackage: Save=79.59ms
+[2017.08.27-14.19.34:611][  9]LogSavePackage: Moving 'D:/Prog/Unreal/Arcanum/Saved/Arena_Auto3D54B20BB49A601C255D371ABCC502715.tmp' to 'D:/Prog/Unreal/Arcanum/Saved/Autosaves/Game/ThirdPersonBP/Maps/Arena_Auto3.umap'
+[2017.08.27-14.19.34:615][  9]LogSavePackage: Display: Finished SavePackage D:/Prog/Unreal/Arcanum/Saved/Autosaves/Game/ThirdPersonBP/Maps/Arena_Auto3.umap
+[2017.08.27-14.19.34:617][  9]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Arena' took 0.122
+[2017.08.27-14.19.34:617][  9]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.122
+[2017.08.27-14.22.47:475][588]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.27-14.22.47:475][588]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.27-14.23.03:795][540]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.27-14.23.03:796][540]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.27-14.23.04:328][572]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.27-14.23.04:328][572]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.27-14.24.04:420][ 64]BlueprintLog: New page: Compile Player
+[2017.08.27-14.24.07:462][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Player/Player" FILE="D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/Player.uasset" SILENT=true
+[2017.08.27-14.24.08:044][143]LogSavePackage: Save=576.08ms
+[2017.08.27-14.24.08:044][143]LogSavePackage: Moving 'D:/Prog/Unreal/Arcanum/Saved/Player8D8972424FC703B498FF23A009DD7E75.tmp' to 'D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/Player.uasset'
+[2017.08.27-14.24.08:047][143]LogSavePackage: Display: Finished SavePackage D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/Player.uasset
+[2017.08.27-14.26.08:914][203]BlueprintLog: New page: Compile Player
+[2017.08.27-14.26.10:931][224]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Player/Player" FILE="D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/Player.uasset" SILENT=true
+[2017.08.27-14.26.11:551][224]LogSavePackage: Save=616.47ms
+[2017.08.27-14.26.11:551][224]LogSavePackage: Moving 'D:/Prog/Unreal/Arcanum/Saved/Player265AC9D945613282E6F817AC46DC119E.tmp' to 'D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/Player.uasset'
+[2017.08.27-14.26.11:555][224]LogSavePackage: Display: Finished SavePackage D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/Player.uasset
+[2017.08.27-14.26.13:458][338]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.27-14.26.13:520][338]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/ThirdPersonBP/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena'
+[2017.08.27-14.26.13:520][338]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.27-14.26.13:521][338]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.08.27-14.26.13:521][338]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2017.08.27-14.26.13:522][338]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2017.08.27-14.26.13:522][338]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2017.08.27-14.26.13:522][338]LogModuleManager: Warning: No filename provided for module OnlineSubsystemLAN
+[2017.08.27-14.26.13:522][338]LogModuleManager: Warning: ModuleManager: Unable to load module 'OnlineSubsystemLAN' because the file 'C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/' was not found.
+[2017.08.27-14.26.13:537][338]PIE: New page: PIE session: Arena (27 Aug 2017 18:26:13)
+[2017.08.27-14.26.13:538][338]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Arena
+[2017.08.27-14.26.13:561][338]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022921s)
+[2017.08.27-14.26.13:562][338]LogAIModule: Creating AISystem for world Arena
+[2017.08.27-14.26.13:563][338]LogPlayLevel: PIE: World Init took: (0.001313s)
+[2017.08.27-14.26.13:563][338]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Arena.Arena to /Game/ThirdPersonBP/Maps/UEDPIE_0_Arena.Arena (0.024882s)
+[2017.08.27-14.26.13:604][338]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.08.27-14.26.13:710][338]LogInit: FAudioDevice initialized.
+[2017.08.27-14.26.13:756][338]LogLoad: Game class is 'ArcaGameMode_C'
+[2017.08.27-14.26.13:762][338]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Arena.Arena up for play (max tick rate 60) at 2017.08.27-16.26.13
+[2017.08.27-14.26.13:766][338]LogWorld: Bringing up level for play took: 0.007320
+[2017.08.27-14.26.13:887][338]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.08.27-14.26.13:896][338]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Arena 0.708
+[2017.08.27-14.26.13:897][338]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/ThirdPersonBP/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena'
+[2017.08.27-14.26.18:611][618]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/ThirdPersonBP/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena'
+[2017.08.27-14.26.18:675][618]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.08.27-14.26.18:675][618]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2017.08.27-14.26.18:676][618]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2017.08.27-14.26.18:676][618]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2017.08.27-14.26.18:676][618]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2017.08.27-14.26.18:676][618]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/ThirdPersonBP/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena'
+[2017.08.27-14.26.18:730][619]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2017.08.27-14.26.18:731][619]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.08.27-14.26.36:731][659]BlueprintLog: New page: Compile Player
+[2017.08.27-14.26.38:178][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Player/Player" FILE="D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/Player.uasset" SILENT=true
+[2017.08.27-14.26.38:779][659]LogSavePackage: Save=597.10ms
+[2017.08.27-14.26.38:779][659]LogSavePackage: Moving 'D:/Prog/Unreal/Arcanum/Saved/Player962D76B249492ACD7828ABB9E3A3F6B5.tmp' to 'D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/Player.uasset'
+[2017.08.27-14.26.38:782][659]LogSavePackage: Display: Finished SavePackage D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/Player.uasset
+[2017.08.27-14.26.44:456][988]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.27-14.26.44:492][988]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/ThirdPersonBP/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena'
+[2017.08.27-14.26.44:492][988]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.27-14.26.44:493][988]PIE: New page: PIE session: Arena (27 Aug 2017 18:26:44)
+[2017.08.27-14.26.44:494][988]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Arena
+[2017.08.27-14.26.44:513][988]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019083s)
+[2017.08.27-14.26.44:514][988]LogAIModule: Creating AISystem for world Arena
+[2017.08.27-14.26.44:514][988]LogPlayLevel: PIE: World Init took: (0.000901s)
+[2017.08.27-14.26.44:514][988]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Arena.Arena to /Game/ThirdPersonBP/Maps/UEDPIE_0_Arena.Arena (0.020366s)
+[2017.08.27-14.26.44:553][988]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.08.27-14.26.44:659][988]LogInit: FAudioDevice initialized.
+[2017.08.27-14.26.44:693][988]LogLoad: Game class is 'ArcaGameMode_C'
+[2017.08.27-14.26.44:697][988]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Arena.Arena up for play (max tick rate 60) at 2017.08.27-16.26.44
+[2017.08.27-14.26.44:698][988]LogWorld: Bringing up level for play took: 0.003070
+[2017.08.27-14.26.44:714][988]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Arena -0.475
+[2017.08.27-14.26.44:714][988]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/ThirdPersonBP/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena'
+[2017.08.27-14.26.51:591][399]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/ThirdPersonBP/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena'
+[2017.08.27-14.26.51:660][399]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.08.27-14.26.51:660][399]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2017.08.27-14.26.51:661][399]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2017.08.27-14.26.51:661][399]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2017.08.27-14.26.51:661][399]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2017.08.27-14.26.51:662][399]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/ThirdPersonBP/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena'
+[2017.08.27-14.26.51:731][400]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2017.08.27-14.26.51:731][400]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.08.27-14.27.06:607][275]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.27-14.27.06:607][275]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.27-14.27.07:443][325]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.27-14.27.07:443][325]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.27-14.27.08:898][412]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.27-14.27.08:933][412]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/ThirdPersonBP/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena'
+[2017.08.27-14.27.08:933][412]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.27-14.27.08:934][412]PIE: New page: PIE session: Arena (27 Aug 2017 18:27:08)
+[2017.08.27-14.27.08:934][412]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Arena
+[2017.08.27-14.27.08:955][412]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020839s)
+[2017.08.27-14.27.08:956][412]LogAIModule: Creating AISystem for world Arena
+[2017.08.27-14.27.08:957][412]LogPlayLevel: PIE: World Init took: (0.001258s)
+[2017.08.27-14.27.08:957][412]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Arena.Arena to /Game/ThirdPersonBP/Maps/UEDPIE_0_Arena.Arena (0.022464s)
+[2017.08.27-14.27.08:993][412]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.08.27-14.27.09:099][412]LogInit: FAudioDevice initialized.
+[2017.08.27-14.27.09:139][412]LogLoad: Game class is 'ArcaGameMode_C'
+[2017.08.27-14.27.09:144][412]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Arena.Arena up for play (max tick rate 60) at 2017.08.27-16.27.09
+[2017.08.27-14.27.09:145][412]LogWorld: Bringing up level for play took: 0.005548
+[2017.08.27-14.27.09:161][412]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Arena -0.027
+[2017.08.27-14.27.09:162][412]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/ThirdPersonBP/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena'
+[2017.08.27-14.27.10:698][499]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/ThirdPersonBP/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena'
+[2017.08.27-14.27.10:763][499]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.08.27-14.27.10:763][499]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2017.08.27-14.27.10:763][499]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2017.08.27-14.27.10:763][499]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2017.08.27-14.27.10:763][499]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2017.08.27-14.27.10:764][499]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/ThirdPersonBP/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena'
+[2017.08.27-14.27.11:035][500]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2017.08.27-14.27.11:036][500]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.08.27-14.27.13:156][626]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.27-14.27.13:189][626]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/ThirdPersonBP/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena'
+[2017.08.27-14.27.13:189][626]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.27-14.27.13:189][626]PIE: New page: PIE session: Arena (27 Aug 2017 18:27:13)
+[2017.08.27-14.27.13:190][626]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Arena
+[2017.08.27-14.27.13:209][626]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018244s)
+[2017.08.27-14.27.13:210][626]LogAIModule: Creating AISystem for world Arena
+[2017.08.27-14.27.13:210][626]LogPlayLevel: PIE: World Init took: (0.001077s)
+[2017.08.27-14.27.13:210][626]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Arena.Arena to /Game/ThirdPersonBP/Maps/UEDPIE_0_Arena.Arena (0.019840s)
+[2017.08.27-14.27.13:252][626]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.08.27-14.27.13:356][626]LogInit: FAudioDevice initialized.
+[2017.08.27-14.27.13:393][626]LogLoad: Game class is 'ArcaGameMode_C'
+[2017.08.27-14.27.13:397][626]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Arena.Arena up for play (max tick rate 60) at 2017.08.27-16.27.13
+[2017.08.27-14.27.13:397][626]LogWorld: Bringing up level for play took: 0.003409
+[2017.08.27-14.27.13:413][626]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Arena 0.225
+[2017.08.27-14.27.13:413][626]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/ThirdPersonBP/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena'
+[2017.08.27-14.27.18:959][957]Cmd: LevelEditor.ToggleImmersive
+[2017.08.27-14.27.19:106][958]LogRenderer: Reallocating scene render targets to support 1472x732 Format 10 NumSamples 1 (Frame:333).
+[2017.08.27-14.27.19:157][959]LogRenderer: Reallocating scene render targets to support 1920x1040 Format 10 NumSamples 1 (Frame:335).
+[2017.08.27-14.27.20:194][ 21]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/ThirdPersonBP/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena'
+[2017.08.27-14.27.20:295][ 21]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.08.27-14.27.20:295][ 21]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2017.08.27-14.27.20:295][ 21]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2017.08.27-14.27.20:295][ 21]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2017.08.27-14.27.20:295][ 21]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2017.08.27-14.27.20:296][ 21]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/ThirdPersonBP/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena'
+[2017.08.27-14.27.20:371][ 22]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2017.08.27-14.27.20:371][ 22]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.08.27-14.27.33:159][740]BlueprintLog: New page: Compile Player
+[2017.08.27-14.27.34:985][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Player/Player" FILE="D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/Player.uasset" SILENT=true
+[2017.08.27-14.27.35:611][751]LogSavePackage: Save=622.37ms
+[2017.08.27-14.27.35:611][751]LogSavePackage: Moving 'D:/Prog/Unreal/Arcanum/Saved/Player17AF6A2844654CC32BD193AED57984CE.tmp' to 'D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/Player.uasset'
+[2017.08.27-14.27.35:614][751]LogSavePackage: Display: Finished SavePackage D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/Player.uasset
+[2017.08.27-14.27.39:931][  9]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.27-14.27.39:970][  9]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/ThirdPersonBP/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena'
+[2017.08.27-14.27.39:970][  9]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.27-14.27.39:970][  9]PIE: New page: PIE session: Arena (27 Aug 2017 18:27:39)
+[2017.08.27-14.27.39:971][  9]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Arena
+[2017.08.27-14.27.39:993][  9]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021973s)
+[2017.08.27-14.27.39:994][  9]LogAIModule: Creating AISystem for world Arena
+[2017.08.27-14.27.39:994][  9]LogPlayLevel: PIE: World Init took: (0.001027s)
+[2017.08.27-14.27.39:995][  9]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Arena.Arena to /Game/ThirdPersonBP/Maps/UEDPIE_0_Arena.Arena (0.023518s)
+[2017.08.27-14.27.40:033][  9]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.08.27-14.27.40:144][  9]LogInit: FAudioDevice initialized.
+[2017.08.27-14.27.40:178][  9]LogLoad: Game class is 'ArcaGameMode_C'
+[2017.08.27-14.27.40:182][  9]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Arena.Arena up for play (max tick rate 60) at 2017.08.27-16.27.40
+[2017.08.27-14.27.40:183][  9]LogWorld: Bringing up level for play took: 0.003338
+[2017.08.27-14.27.40:198][  9]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Arena 1.01
+[2017.08.27-14.27.40:198][  9]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/ThirdPersonBP/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena'
+[2017.08.27-14.27.40:978][ 54]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
+[2017.08.27-14.27.41:561][ 89]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
+[2017.08.27-14.27.41:744][100]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
+[2017.08.27-14.27.42:345][136]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/ThirdPersonBP/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena'
+[2017.08.27-14.27.42:417][136]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.08.27-14.27.42:417][136]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2017.08.27-14.27.42:418][136]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2017.08.27-14.27.42:418][136]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2017.08.27-14.27.42:418][136]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2017.08.27-14.27.42:418][136]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/ThirdPersonBP/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena'
+[2017.08.27-14.27.42:469][137]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2017.08.27-14.27.42:469][137]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.08.27-14.28.07:903][579]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.27-14.28.07:904][579]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.27-14.28.11:675][803]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Player/UI/GameState.GameState' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Player/UI/NewUserDefinedEnum.PackageMetaData'
+[2017.08.27-14.28.11:701][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Player/UI/GameState" FILE="D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/UI/GameState.uasset" SILENT=true
+[2017.08.27-14.28.11:704][803]LogSavePackage: Save=1.61ms
+[2017.08.27-14.28.11:704][803]LogSavePackage: Moving 'D:/Prog/Unreal/Arcanum/Saved/GameState62BC9A3949D12527AEE1CEBAAB532119.tmp' to 'D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/UI/GameState.uasset'
+[2017.08.27-14.28.11:707][803]LogSavePackage: Display: Finished SavePackage D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/UI/GameState.uasset
+[2017.08.27-14.28.52:919][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Player/UI/GameState" FILE="D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/UI/GameState.uasset" SILENT=true
+[2017.08.27-14.28.52:927][222]LogSavePackage: Save=1.69ms
+[2017.08.27-14.28.52:927][222]LogSavePackage: Moving 'D:/Prog/Unreal/Arcanum/Saved/GameState6E5B811E496529B8718C93AF5188B16B.tmp' to 'D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/UI/GameState.uasset'
+[2017.08.27-14.28.52:930][222]LogSavePackage: Display: Finished SavePackage D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/UI/GameState.uasset
+[2017.08.27-14.29.30:127][369]BlueprintLog: New page: Compile Player
+[2017.08.27-14.29.32:264][391]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Player/Player" FILE="D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/Player.uasset" SILENT=true
+[2017.08.27-14.29.32:891][391]LogSavePackage: Save=621.89ms
+[2017.08.27-14.29.32:891][391]LogSavePackage: Moving 'D:/Prog/Unreal/Arcanum/Saved/Player6876B22049A8D1B3BCE1F5BF1A46D917.tmp' to 'D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/Player.uasset'
+[2017.08.27-14.29.32:894][391]LogSavePackage: Display: Finished SavePackage D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/Player.uasset
+[2017.08.27-14.30.05:373][282]BlueprintLog: New page: Compile Player
+[2017.08.27-14.30.07:437][303]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Player/Player" FILE="D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/Player.uasset" SILENT=true
+[2017.08.27-14.30.08:082][303]LogSavePackage: Save=640.17ms
+[2017.08.27-14.30.08:082][303]LogSavePackage: Moving 'D:/Prog/Unreal/Arcanum/Saved/Player2D252B0A4DB3C31C79A5B38A69901A04.tmp' to 'D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/Player.uasset'
+[2017.08.27-14.30.08:084][303]LogSavePackage: Display: Finished SavePackage D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/Player.uasset
+[2017.08.27-14.30.10:689][459]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.27-14.30.10:719][459]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/ThirdPersonBP/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena'
+[2017.08.27-14.30.10:719][459]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.27-14.30.10:720][459]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_AnimBlueprint_0 before play...
+[2017.08.27-14.30.10:744][459]LogPlayLevel: PlayLevel: Blueprint regeneration took 24 ms (1 blueprints)
+[2017.08.27-14.30.10:745][459]PIE: New page: PIE session: Arena (27 Aug 2017 18:30:10)
+[2017.08.27-14.30.10:746][459]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Arena
+[2017.08.27-14.30.10:767][459]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021532s)
+[2017.08.27-14.30.10:768][459]LogAIModule: Creating AISystem for world Arena
+[2017.08.27-14.30.10:768][459]LogPlayLevel: PIE: World Init took: (0.001064s)
+[2017.08.27-14.30.10:769][459]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Arena.Arena to /Game/ThirdPersonBP/Maps/UEDPIE_0_Arena.Arena (0.023064s)
+[2017.08.27-14.30.10:810][459]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.08.27-14.30.10:927][459]LogInit: FAudioDevice initialized.
+[2017.08.27-14.30.10:963][459]LogLoad: Game class is 'ArcaGameMode_C'
+[2017.08.27-14.30.10:967][459]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Arena.Arena up for play (max tick rate 60) at 2017.08.27-16.30.10
+[2017.08.27-14.30.10:968][459]LogWorld: Bringing up level for play took: 0.003988
+[2017.08.27-14.30.10:985][459]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Arena -0.204
+[2017.08.27-14.30.10:985][459]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/ThirdPersonBP/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena'
+[2017.08.27-14.30.20:145][  7]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/ThirdPersonBP/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena'
+[2017.08.27-14.30.20:214][  7]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.08.27-14.30.20:215][  7]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2017.08.27-14.30.20:215][  7]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2017.08.27-14.30.20:215][  7]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2017.08.27-14.30.20:215][  7]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2017.08.27-14.30.20:216][  7]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/ThirdPersonBP/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena'
+[2017.08.27-14.30.20:268][  8]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2017.08.27-14.30.20:268][  8]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.08.27-14.30.49:075][681]BlueprintLog: New page: Compile Player
+[2017.08.27-14.30.51:113][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Player/Player" FILE="D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/Player.uasset" SILENT=true
+[2017.08.27-14.30.51:773][702]LogSavePackage: Save=655.74ms
+[2017.08.27-14.30.51:773][702]LogSavePackage: Moving 'D:/Prog/Unreal/Arcanum/Saved/Player3921F428478B890FDB7FD4AB2D018835.tmp' to 'D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/Player.uasset'
+[2017.08.27-14.30.51:777][702]LogSavePackage: Display: Finished SavePackage D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/Player.uasset
+[2017.08.27-14.30.53:516][806]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.27-14.30.53:554][806]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/ThirdPersonBP/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena'
+[2017.08.27-14.30.53:554][806]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.27-14.30.53:555][806]PIE: New page: PIE session: Arena (27 Aug 2017 18:30:53)
+[2017.08.27-14.30.53:556][806]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Arena
+[2017.08.27-14.30.53:578][806]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022354s)
+[2017.08.27-14.30.53:579][806]LogAIModule: Creating AISystem for world Arena
+[2017.08.27-14.30.53:579][806]LogPlayLevel: PIE: World Init took: (0.000931s)
+[2017.08.27-14.30.53:579][806]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Arena.Arena to /Game/ThirdPersonBP/Maps/UEDPIE_0_Arena.Arena (0.023704s)
+[2017.08.27-14.30.53:620][806]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.08.27-14.30.53:721][806]LogInit: FAudioDevice initialized.
+[2017.08.27-14.30.53:752][806]LogLoad: Game class is 'ArcaGameMode_C'
+[2017.08.27-14.30.53:756][806]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Arena.Arena up for play (max tick rate 60) at 2017.08.27-16.30.53
+[2017.08.27-14.30.53:756][806]LogWorld: Bringing up level for play took: 0.003312
+[2017.08.27-14.30.53:772][806]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Arena 0.584
+[2017.08.27-14.30.53:772][806]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/ThirdPersonBP/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena'
+[2017.08.27-14.30.59:224][132]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/ThirdPersonBP/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena'
+[2017.08.27-14.30.59:289][132]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.08.27-14.30.59:290][132]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2017.08.27-14.30.59:290][132]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2017.08.27-14.30.59:290][132]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2017.08.27-14.30.59:290][132]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2017.08.27-14.30.59:291][132]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/ThirdPersonBP/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena'
+[2017.08.27-14.30.59:348][133]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2017.08.27-14.30.59:348][133]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.08.27-14.31.48:842][ 31]BlueprintLog: New page: Compile Player
+[2017.08.27-14.31.50:740][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Player/Player" FILE="D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/Player.uasset" SILENT=true
+[2017.08.27-14.31.51:373][ 45]LogSavePackage: Save=629.65ms
+[2017.08.27-14.31.51:374][ 45]LogSavePackage: Moving 'D:/Prog/Unreal/Arcanum/Saved/Player685C0B5A45BE8BDE89DFEDB8D155640D.tmp' to 'D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/Player.uasset'
+[2017.08.27-14.31.51:376][ 45]LogSavePackage: Display: Finished SavePackage D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/Player.uasset
+[2017.08.27-14.32.17:517][570]BlueprintLog: New page: Compile Player
+[2017.08.27-14.32.20:480][648]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.27-14.32.20:512][648]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/ThirdPersonBP/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena'
+[2017.08.27-14.32.20:512][648]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.27-14.32.20:512][648]PIE: New page: PIE session: Arena (27 Aug 2017 18:32:20)
+[2017.08.27-14.32.20:513][648]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Arena
+[2017.08.27-14.32.20:536][648]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022574s)
+[2017.08.27-14.32.20:537][648]LogAIModule: Creating AISystem for world Arena
+[2017.08.27-14.32.20:538][648]LogPlayLevel: PIE: World Init took: (0.001500s)
+[2017.08.27-14.32.20:538][648]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Arena.Arena to /Game/ThirdPersonBP/Maps/UEDPIE_0_Arena.Arena (0.024552s)
+[2017.08.27-14.32.20:579][648]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.08.27-14.32.20:687][648]LogInit: FAudioDevice initialized.
+[2017.08.27-14.32.20:717][648]LogLoad: Game class is 'ArcaGameMode_C'
+[2017.08.27-14.32.20:721][648]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Arena.Arena up for play (max tick rate 60) at 2017.08.27-16.32.20
+[2017.08.27-14.32.20:722][648]LogWorld: Bringing up level for play took: 0.004311
+[2017.08.27-14.32.20:738][648]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Arena -0.45
+[2017.08.27-14.32.20:739][648]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/ThirdPersonBP/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena'
+[2017.08.27-14.32.28:126][ 90]Set new viewmode: Wireframe
+[2017.08.27-14.32.28:894][136]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/ThirdPersonBP/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena'
+[2017.08.27-14.32.28:959][136]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.08.27-14.32.28:959][136]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2017.08.27-14.32.28:960][136]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2017.08.27-14.32.28:960][136]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2017.08.27-14.32.28:960][136]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2017.08.27-14.32.28:961][136]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/ThirdPersonBP/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena'
+[2017.08.27-14.32.29:024][137]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2017.08.27-14.32.29:024][137]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.08.27-14.32.43:292][955]BlueprintLog: New page: Compile Player
+[2017.08.27-14.32.47:635][113]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.27-14.32.47:667][113]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/ThirdPersonBP/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena'
+[2017.08.27-14.32.47:667][113]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.27-14.32.47:667][113]PIE: New page: PIE session: Arena (27 Aug 2017 18:32:47)
+[2017.08.27-14.32.47:668][113]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Arena
+[2017.08.27-14.32.47:688][113]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020324s)
+[2017.08.27-14.32.47:689][113]LogAIModule: Creating AISystem for world Arena
+[2017.08.27-14.32.47:690][113]LogPlayLevel: PIE: World Init took: (0.000954s)
+[2017.08.27-14.32.47:690][113]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Arena.Arena to /Game/ThirdPersonBP/Maps/UEDPIE_0_Arena.Arena (0.021678s)
+[2017.08.27-14.32.47:730][113]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.08.27-14.32.47:831][113]LogInit: FAudioDevice initialized.
+[2017.08.27-14.32.47:867][113]LogLoad: Game class is 'ArcaGameMode_C'
+[2017.08.27-14.32.47:870][113]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Arena.Arena up for play (max tick rate 60) at 2017.08.27-16.32.47
+[2017.08.27-14.32.47:871][113]LogWorld: Bringing up level for play took: 0.003268
+[2017.08.27-14.32.47:887][113]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Arena 0.698
+[2017.08.27-14.32.47:887][113]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/ThirdPersonBP/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena'
+[2017.08.27-14.32.49:043][181]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
+[2017.08.27-14.32.51:677][339]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/ThirdPersonBP/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena'
+[2017.08.27-14.32.51:741][339]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.08.27-14.32.51:741][339]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2017.08.27-14.32.51:742][339]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2017.08.27-14.32.51:742][339]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2017.08.27-14.32.51:742][339]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2017.08.27-14.32.51:742][339]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/ThirdPersonBP/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Arena.Arena:PersistentLevel.Arena'
+[2017.08.27-14.32.51:809][340]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2017.08.27-14.32.51:809][340]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.08.27-14.33.18:715][607]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Arena" FILE="D:/Prog/Unreal/Arcanum/Saved/Autosaves/Game/ThirdPersonBP/Maps/Arena_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.27-14.33.18:810][607]LogSavePackage: Save=81.70ms
+[2017.08.27-14.33.18:810][607]LogSavePackage: Moving 'D:/Prog/Unreal/Arcanum/Saved/Arena_Auto4BE61516149D24C7F32048F91720638BC.tmp' to 'D:/Prog/Unreal/Arcanum/Saved/Autosaves/Game/ThirdPersonBP/Maps/Arena_Auto4.umap'
+[2017.08.27-14.33.19:107][607]LogSavePackage: Display: Finished SavePackage D:/Prog/Unreal/Arcanum/Saved/Autosaves/Game/ThirdPersonBP/Maps/Arena_Auto4.umap
+[2017.08.27-14.33.19:111][607]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Arena' took 0.422
+[2017.08.27-14.33.19:111][607]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.422
+[2017.08.27-14.33.19:115][607]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Player/Player] ([1] browsable assets)...
+[2017.08.27-14.33.19:134][607]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/Player/Player.Player]
+[2017.08.27-14.33.19:134][607]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Player/Player]
+[2017.08.27-14.33.19:739][607]LogSavePackage: Save=601.01ms
+[2017.08.27-14.33.19:739][607]LogSavePackage: Moving 'D:/Prog/Unreal/Arcanum/Saved/Player_Auto4963F23B84811109500DAB1AC623A8589.tmp' to 'D:/Prog/Unreal/Arcanum/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Player/Player_Auto4.uasset'
+[2017.08.27-14.33.19:742][607]LogSavePackage: Display: Finished SavePackage D:/Prog/Unreal/Arcanum/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Player/Player_Auto4.uasset
+[2017.08.27-14.33.19:742][607]LogFileHelpers: Auto-saving content packages took 0.629
+[2017.08.27-14.33.19:743][607]LogSlate: Took 0.000324 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.27-15.30.37:764][109]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Player/UI/Menu" FILE="D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/UI/Menu.uasset" SILENT=true
+[2017.08.27-15.30.37:780][109]LogSavePackage: Save=9.79ms
+[2017.08.27-15.30.37:780][109]LogSavePackage: Moving 'D:/Prog/Unreal/Arcanum/Saved/Menu83FBFADD4657A31981C78CB904B9494F.tmp' to 'D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/UI/Menu.uasset'
+[2017.08.27-15.30.37:782][109]LogSavePackage: Display: Finished SavePackage D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/UI/Menu.uasset
+[2017.08.27-15.30.41:910][344]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.27-15.30.43:492][430]LogSlate: Took 0.002032 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.08.27-15.30.47:831][562]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Player/Player" FILE="D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/Player.uasset" SILENT=true
+[2017.08.27-15.30.48:473][562]LogSavePackage: Save=635.56ms
+[2017.08.27-15.30.48:473][562]LogSavePackage: Moving 'D:/Prog/Unreal/Arcanum/Saved/Player45A56F9B467EC56BFB60F48DB3F3B232.tmp' to 'D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/Player.uasset'
+[2017.08.27-15.30.48:476][562]LogSavePackage: Display: Finished SavePackage D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Blueprints/Player/Player.uasset
+[2017.08.27-15.30.48:637][562]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Arena" FILE="D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Maps/Arena.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.27-15.30.48:807][562]LogSavePackage: Save=84.92ms
+[2017.08.27-15.30.48:807][562]LogSavePackage: Moving 'D:/Prog/Unreal/Arcanum/Saved/ArenaABB785D244C019A4C08DEBB2A045072E.tmp' to 'D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Maps/Arena.umap'
+[2017.08.27-15.30.48:811][562]LogSavePackage: Display: Finished SavePackage D:/Prog/Unreal/Arcanum/Content/ThirdPersonBP/Maps/Arena.umap
+[2017.08.27-15.30.48:858][562]LogFileHelpers: Saving map 'Arena' took 0.378
+[2017.08.27-15.30.50:430][645]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.27-15.30.50:630][646]Cmd: QUIT_EDITOR
+[2017.08.27-15.30.50:747][646]LogExit: Preparing to exit.
+[2017.08.27-15.30.51:916][646]LogExit: Editor shut down
+[2017.08.27-15.30.51:925][646]LogExit: Transaction tracking system shut down
+[2017.08.27-15.30.52:101][646]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.27-15.30.52:101][646]LogDirectoryWatcher: A directory notification for 'D:/Prog/Unreal/Arcanum/Content/' was aborted.
+[2017.08.27-15.30.52:102][646]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.27-15.30.52:102][646]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.08.27-15.30.52:102][646]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.08.27-15.30.52:218][646]LogExit: Object subsystem successfully closed.
+[2017.08.27-15.30.52:240][646]LogD3D11RHI: Shutdown
+[2017.08.27-15.30.52:240][646]LogD3D11RHI: CleanupD3DDevice
+[2017.08.27-15.30.52:327][646]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.27-15.30.52:365][646]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (541)
+[2017.08.27-15.30.52:366][646]LogModuleManager: Shutting down and abandoning module Voice (539)
+[2017.08.27-15.30.52:366][646]LogModuleManager: Shutting down and abandoning module SequencerWidgets (537)
+[2017.08.27-15.30.52:366][646]LogModuleManager: Shutting down and abandoning module BlueprintGraph (535)
+[2017.08.27-15.30.52:366][646]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (533)
+[2017.08.27-15.30.52:367][646]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (531)
+[2017.08.27-15.30.52:367][646]LogModuleManager: Shutting down and abandoning module SceneOutliner (529)
+[2017.08.27-15.30.52:367][646]LogModuleManager: Shutting down and abandoning module AddContentDialog (527)
+[2017.08.27-15.30.52:368][646]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.08.27-15.30.52:368][646]LogModuleManager: Shutting down and abandoning module WidgetCarousel (526)
+[2017.08.27-15.30.52:369][646]LogModuleManager: Shutting down and abandoning module EditorWidgets (523)
+[2017.08.27-15.30.52:369][646]LogModuleManager: Shutting down and abandoning module CollectionManager (521)
+[2017.08.27-15.30.52:369][646]LogDirectoryWatcher: A directory notification for 'D:/Prog/Unreal/Arcanum/Content/Collections/' was aborted.
+[2017.08.27-15.30.52:369][646]LogDirectoryWatcher: A directory notification for 'D:/Prog/Unreal/Arcanum/Content/Developers/Ðaine/Collections/' was aborted.
+[2017.08.27-15.30.52:369][646]LogDirectoryWatcher: A directory notification for 'D:/Prog/Unreal/Arcanum/Saved/Collections/' was aborted.
+[2017.08.27-15.30.52:369][646]LogModuleManager: Shutting down and abandoning module StatsViewer (519)
+[2017.08.27-15.30.52:369][646]LogModuleManager: Shutting down and abandoning module FoliageEdit (517)
+[2017.08.27-15.30.52:369][646]LogModuleManager: Shutting down and abandoning module LandscapeEditor (515)
+[2017.08.27-15.30.52:369][646]LogModuleManager: Shutting down and abandoning module MeshPaintMode (513)
+[2017.08.27-15.30.52:369][646]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (511)
+[2017.08.27-15.30.52:369][646]LogModuleManager: Shutting down and abandoning module ActorPickerMode (509)
+[2017.08.27-15.30.52:369][646]LogModuleManager: Shutting down and abandoning module GeometryMode (507)
+[2017.08.27-15.30.52:369][646]LogModuleManager: Shutting down and abandoning module TextureAlignMode (505)
+[2017.08.27-15.30.52:369][646]LogModuleManager: Shutting down and abandoning module BspMode (503)
+[2017.08.27-15.30.52:369][646]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (501)
+[2017.08.27-15.30.52:369][646]LogModuleManager: Shutting down and abandoning module HardwareSurvey (499)
+[2017.08.27-15.30.52:369][646]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (497)
+[2017.08.27-15.30.52:369][646]LogModuleManager: Shutting down and abandoning module AutomationWorker (495)
+[2017.08.27-15.30.52:369][646]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (493)
+[2017.08.27-15.30.52:369][646]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (491)
+[2017.08.27-15.30.52:369][646]LogModuleManager: Shutting down and abandoning module PlacementMode (490)
+[2017.08.27-15.30.52:369][646]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (487)
+[2017.08.27-15.30.52:369][646]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (485)
+[2017.08.27-15.30.52:369][646]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (483)
+[2017.08.27-15.30.52:369][646]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (481)
+[2017.08.27-15.30.52:369][646]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (479)
+[2017.08.27-15.30.52:369][646]LogModuleManager: Shutting down and abandoning module Media (478)
+[2017.08.27-15.30.52:369][646]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (475)
+[2017.08.27-15.30.52:369][646]LogModuleManager: Shutting down and abandoning module CharacterAI (473)
+[2017.08.27-15.30.52:369][646]LogModuleManager: Shutting down and abandoning module AudioCapture (471)
+[2017.08.27-15.30.52:369][646]LogModuleManager: Shutting down and abandoning module SequenceRecorder (470)
+[2017.08.27-15.30.52:369][646]LogModuleManager: Shutting down and abandoning module SmartSnapping (467)
+[2017.08.27-15.30.52:369][646]LogModuleManager: Shutting down and abandoning module SessionServices (465)
+[2017.08.27-15.30.52:369][646]LogModuleManager: Shutting down and abandoning module ViewportSnapping (463)
+[2017.08.27-15.30.52:369][646]LogModuleManager: Shutting down and abandoning module ViewportInteraction (461)
+[2017.08.27-15.30.52:369][646]LogModuleManager: Shutting down and abandoning module ClothPainter (459)
+[2017.08.27-15.30.52:370][646]LogModuleManager: Shutting down and abandoning module LogVisualizer (457)
+[2017.08.27-15.30.52:370][646]LogModuleManager: Shutting down and abandoning module IntroTutorials (455)
+[2017.08.27-15.30.52:370][646]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (454)
+[2017.08.27-15.30.52:370][646]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (451)
+[2017.08.27-15.30.52:370][646]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (449)
+[2017.08.27-15.30.52:370][646]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (447)
+[2017.08.27-15.30.52:370][646]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (446)
+[2017.08.27-15.30.53:317][646]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (443)
+[2017.08.27-15.30.53:317][646]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (441)
+[2017.08.27-15.30.53:317][646]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (439)
+[2017.08.27-15.30.53:317][646]LogModuleManager: Shutting down and abandoning module InputBindingEditor (437)
+[2017.08.27-15.30.53:317][646]LogModuleManager: Shutting down and abandoning module MergeActors (435)
+[2017.08.27-15.30.53:317][646]LogModuleManager: Shutting down and abandoning module SizeMap (433)
+[2017.08.27-15.30.53:317][646]LogModuleManager: Shutting down and abandoning module TreeMap (431)
+[2017.08.27-15.30.53:317][646]LogModuleManager: Shutting down and abandoning module ReferenceViewer (429)
+[2017.08.27-15.30.53:317][646]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (427)
+[2017.08.27-15.30.53:317][646]LogModuleManager: Shutting down and abandoning module LocalizationService (426)
+[2017.08.27-15.30.53:317][646]LogModuleManager: Shutting down and abandoning module HardwareTargeting (423)
+[2017.08.27-15.30.53:317][646]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (421)
+[2017.08.27-15.30.53:317][646]LogModuleManager: Shutting down and abandoning module UndoHistory (419)
+[2017.08.27-15.30.53:317][646]LogModuleManager: Shutting down and abandoning module XmlParser (417)
+[2017.08.27-15.30.53:317][646]LogModuleManager: Shutting down and abandoning module Blutility (415)
+[2017.08.27-15.30.53:317][646]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (413)
+[2017.08.27-15.30.53:317][646]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (412)
+[2017.08.27-15.30.53:317][646]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (409)
+[2017.08.27-15.30.53:317][646]LogModuleManager: Shutting down and abandoning module SettingsEditor (407)
+[2017.08.27-15.30.53:317][646]LogModuleManager: Shutting down and abandoning module ProjectLauncher (405)
+[2017.08.27-15.30.53:317][646]LogModuleManager: Shutting down and abandoning module SessionFrontend (403)
+[2017.08.27-15.30.53:317][646]LogModuleManager: Shutting down and abandoning module ProfilerClient (401)
+[2017.08.27-15.30.53:317][646]LogModuleManager: Shutting down and abandoning module DeviceManager (399)
+[2017.08.27-15.30.53:317][646]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (398)
+[2017.08.27-15.30.53:370][646]LogModuleManager: Shutting down and abandoning module AutomationController (395)
+[2017.08.27-15.30.53:370][646]LogModuleManager: Shutting down and abandoning module AutomationWindow (393)
+[2017.08.27-15.30.53:370][646]LogModuleManager: Shutting down and abandoning module Layers (391)
+[2017.08.27-15.30.53:370][646]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (389)
+[2017.08.27-15.30.53:370][646]LogModuleManager: Shutting down and abandoning module DetailCustomizations (387)
+[2017.08.27-15.30.53:370][646]LogModuleManager: Shutting down and abandoning module PackagesDialog (385)
+[2017.08.27-15.30.53:370][646]LogModuleManager: Shutting down and abandoning module Persona (383)
+[2017.08.27-15.30.53:370][646]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (382)
+[2017.08.27-15.30.53:371][646]LogModuleManager: Shutting down and abandoning module AnimGraph (380)
+[2017.08.27-15.30.53:371][646]LogModuleManager: Shutting down and abandoning module Kismet (377)
+[2017.08.27-15.30.53:586][646]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.206 s
+[2017.08.27-15.30.53:586][646]LogOutputDevice: Error: === Handled ensure: ===
+[2017.08.27-15.30.53:586][646]LogOutputDevice: Error: 
+[2017.08.27-15.30.53:586][646]LogOutputDevice: Error: Ensure condition failed: PinHelpers::NumPinsInMemory == 0 || PinHelpers::NumPinsInMemory == 1 [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 1164]
+[2017.08.27-15.30.53:586][646]LogOutputDevice: Error: 
+[2017.08.27-15.30.53:586][646]LogOutputDevice: Error: Stack: 
+[2017.08.27-15.30.53:586][646]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000CEEB3606
+[2017.08.27-15.30.53:586][646]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000CEC3C2D2
+[2017.08.27-15.30.53:586][646]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000CEC54746
+[2017.08.27-15.30.53:586][646]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000BF8B8073
+[2017.08.27-15.30.53:586][646]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000CED4B777
+[2017.08.27-15.30.53:586][646]LogOutputDevice: Error: UE4Editor.exe!0x0000000060802E26
+[2017.08.27-15.30.53:586][646]LogOutputDevice: Error: UE4Editor.exe!0x00000000608039A5
+[2017.08.27-15.30.53:586][646]LogOutputDevice: Error: UE4Editor.exe!0x00000000608039EA
+[2017.08.27-15.30.53:586][646]LogOutputDevice: Error: UE4Editor.exe!0x00000000608102D9
+[2017.08.27-15.30.53:586][646]LogOutputDevice: Error: UE4Editor.exe!0x0000000060811C47
+[2017.08.27-15.30.53:586][646]LogOutputDevice: Error: KERNEL32.DLL!0x00000000067A2774
+[2017.08.27-15.30.53:586][646]LogOutputDevice: Error: ntdll.dll!0x0000000008B70D51
+[2017.08.27-15.30.53:586][646]LogOutputDevice: Error: 
+[2017.08.27-15.30.53:595][646]LogStats:                SubmitErrorReport -  0.000 s
